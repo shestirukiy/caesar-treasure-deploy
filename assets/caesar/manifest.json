@@ -1,0 +1,128 @@
+{
+  "character": "Caesar (Персонаж 1)",
+  "version": "1.0.0",
+  "base_collider": {
+    "width": 40,
+    "height": 64,
+    "shape": "rounded_box",
+    "radius": 12
+  },
+  "standard_states": [
+    {
+      "id": "stand_idle",
+      "file": "standard/stand_idle.png",
+      "title": "Стойка",
+      "rules": "Без наклона, без морфинга, только flipX",
+      "dimensions": [332, 460],
+      "pivot": [0.5, 0.85]
+    },
+    {
+      "id": "flight_flapping",
+      "file": "standard/flight_flapping.png",
+      "title": "Полет (активный взмах)",
+      "rules": "Без наклона, без морфинга, только flipX",
+      "dimensions": [487, 482],
+      "pivot": [0.5, 0.65]
+    },
+    {
+      "id": "landing_flared",
+      "file": "standard/landing_flared.png",
+      "title": "Приземление (торможение)",
+      "rules": "Фаза 1 касания опоры",
+      "dimensions": [451, 368],
+      "pivot": [0.5, 0.8]
+    },
+    {
+      "id": "landing_crouch",
+      "file": "standard/landing_crouch.png",
+      "title": "Приземление (амортизация)",
+      "rules": "Фаза 2 упор в пол на 4 точки",
+      "dimensions": [402, 328],
+      "pivot": [0.5, 0.8]
+    },
+    {
+      "id": "flight_tucked_45",
+      "file": "flight_angles/flight_tucked_45.png",
+      "title": "Полет с прижатыми крыльями (45°)",
+      "rules": "Скольжение",
+      "dimensions": [354, 362],
+      "pivot": [0.5, 0.5]
+    },
+    {
+      "id": "flight_glide_45",
+      "file": "flight_angles/flight_glide_45.png",
+      "title": "Полет планирующий (45°)",
+      "rules": "Свободное планирование",
+      "dimensions": [451, 388],
+      "pivot": [0.5, 0.5]
+    }
+  ],
+  "squeezed_states": [
+    {
+      "id": "sq_01_crawl_flat",
+      "file": "squeezed/sq_01_crawl_flat.png",
+      "title": "Лежа на брюхе",
+      "geometric_trigger": "horizontal_slit",
+      "aspect_ratio_min": 1.6,
+      "max_height_px": 35,
+      "description": "Сверхнизкая горизонтальная щель, персонаж ползет плашмя",
+      "pivot": [0.5, 0.6]
+    },
+    {
+      "id": "sq_02_roof_press",
+      "file": "squeezed/sq_02_roof_press.png",
+      "title": "Упор в потолок",
+      "geometric_trigger": "vertical_compression_roof",
+      "description": "Прижим сверху, персонаж упирается руками в потолок, лапами в пол",
+      "pivot": [0.5, 0.75]
+    },
+    {
+      "id": "sq_03_diagonal_wedge",
+      "file": "squeezed/sq_03_diagonal_wedge.png",
+      "title": "Диагональный клин",
+      "geometric_trigger": "angled_slit",
+      "description": "Наклонная расщелина, лапа упирается в одну стенку, тело ползет по диагонали",
+      "pivot": [0.5, 0.65]
+    },
+    {
+      "id": "sq_04_wall_brace",
+      "file": "squeezed/sq_04_wall_brace.png",
+      "title": "Боковая распорка стен",
+      "geometric_trigger": "lateral_squeeze_wide",
+      "description": "Панический зажим между двух боковых стен, упор лапами и крыльями",
+      "pivot": [0.5, 0.7]
+    },
+    {
+      "id": "sq_05_scramble_tilt",
+      "file": "squeezed/sq_05_scramble_tilt.png",
+      "title": "Наклонный упор / баланс",
+      "geometric_trigger": "uneven_wedge_tilt",
+      "description": "Неровная ниша, балансирование на одной лапе с широко расставленными перьями",
+      "pivot": [0.5, 0.75]
+    },
+    {
+      "id": "sq_06_narrow_vertical",
+      "file": "squeezed/sq_06_narrow_vertical.png",
+      "title": "Узкий колодец",
+      "geometric_trigger": "vertical_tight_chasm",
+      "description": "Узкая вертикальная щель, персонаж втягивает плечи и поднимает руки над головой",
+      "pivot": [0.5, 0.8]
+    },
+    {
+      "id": "sq_07_inverted_ceiling",
+      "file": "squeezed/sq_07_inverted_ceiling.png",
+      "title": "Крыша вверх тормашками",
+      "geometric_trigger": "inverted_cavity",
+      "description": "Зажатие головой вниз или удержание свода перевернутым положением тела",
+      "pivot": [0.5, 0.5]
+    },
+    {
+      "id": "sq_08_tube_shiver",
+      "file": "squeezed/sq_08_tube_shiver.png",
+      "title": "Узкая труба / швы",
+      "geometric_trigger": "extreme_narrow_conduit",
+      "description": "Критически узкий проход, крылья плотно прижаты к бокам, дрожь от сжатия",
+      "pivot": [0.5, 0.8]
+    }
+  ]
+}
