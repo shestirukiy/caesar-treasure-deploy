@@ -1,6 +1,6 @@
 {
   "skeleton": {
-    "hash": "caesar_flight_glide_45_mesh_v4",
+    "hash": "caesar_flight_glide_45_lean_v5",
     "spine": "3.8.99",
     "x": -225.0,
     "y": 0,
@@ -21,42 +21,42 @@
     {
       "name": "glide_torso",
       "parent": "root_flight_glide",
-      "length": 134.5,
-      "rotation": 48.01,
-      "x": -40.0,
-      "y": 120.0
+      "length": 120.4,
+      "rotation": 48.37,
+      "x": -30.0,
+      "y": 130.0
     },
     {
       "name": "glide_head",
       "parent": "glide_torso",
       "length": 108.2,
-      "rotation": -14.32,
-      "x": 134.5,
+      "rotation": -14.68,
+      "x": 120.4,
       "y": -0.0
     },
     {
       "name": "glide_wing_L",
       "parent": "glide_torso",
       "length": 170.3,
-      "rotation": 82.22,
-      "x": 78.0,
-      "y": 3.0
+      "rotation": 81.87,
+      "x": 63.9,
+      "y": 3.3
     },
     {
       "name": "glide_wing_R",
       "parent": "glide_torso",
       "length": 142.1,
-      "rotation": -87.3,
-      "x": 78.0,
-      "y": 3.0
+      "rotation": -87.66,
+      "x": 63.9,
+      "y": 3.3
     },
     {
       "name": "glide_legs",
-      "parent": "root_flight_glide",
-      "length": 111.8,
-      "rotation": -153.43,
-      "x": -40.0,
-      "y": 120.0
+      "parent": "glide_torso",
+      "length": 125.3,
+      "rotation": 160.24,
+      "x": 0.0,
+      "y": 0.0
     }
   ],
   "slots": [

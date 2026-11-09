@@ -1,6 +1,6 @@
 {
   "skeleton": {
-    "hash": "caesar_sq_03_diagonal_wedge_mesh_v4",
+    "hash": "caesar_sq_03_diagonal_wedge_lean_v5",
     "spine": "3.8.99",
     "x": -220.5,
     "y": 0,
@@ -19,44 +19,44 @@
       "y": 0.0
     },
     {
-      "name": "diag_pelvis",
+      "name": "diag_torso",
       "parent": "root_diag",
-      "length": 138.9,
-      "rotation": 59.74,
-      "x": -40.0,
-      "y": 100.0
+      "length": 125.3,
+      "rotation": 61.39,
+      "x": -30.0,
+      "y": 110.0
     },
     {
       "name": "diag_head",
-      "parent": "diag_pelvis",
+      "parent": "diag_torso",
       "length": 103.0,
-      "rotation": 1.2,
-      "x": 138.9,
+      "rotation": -0.44,
+      "x": 125.3,
       "y": -0.0
     },
     {
       "name": "diag_arm_up",
-      "parent": "diag_pelvis",
+      "parent": "diag_torso",
       "length": 125.3,
-      "rotation": -31.13,
-      "x": 125.2,
-      "y": 3.6
+      "rotation": -32.78,
+      "x": 111.7,
+      "y": 4.0
     },
     {
       "name": "diag_arm_down",
-      "parent": "diag_pelvis",
+      "parent": "diag_torso",
       "length": 120.8,
-      "rotation": 144.7,
-      "x": 66.9,
-      "y": 4.3
+      "rotation": 143.05,
+      "x": 53.5,
+      "y": 6.4
     },
     {
       "name": "diag_legs",
-      "parent": "root_diag",
-      "length": 92.2,
-      "rotation": -130.6,
-      "x": -40.0,
-      "y": 100.0
+      "parent": "diag_torso",
+      "length": 106.3,
+      "rotation": 167.42,
+      "x": 0.0,
+      "y": 0.0
     }
   ],
   "slots": [

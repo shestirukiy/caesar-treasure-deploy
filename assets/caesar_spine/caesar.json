@@ -1,6 +1,6 @@
 {
   "skeleton": {
-    "hash": "caesar_unified_mesh_lineup_v4",
+    "hash": "caesar_lean_mesh_lineup_v5",
     "spine": "3.8.99",
     "x": -250,
     "y": 0,
@@ -19,140 +19,44 @@
       "y": 0.0
     },
     {
-      "name": "stand_pelvis",
+      "name": "stand_torso",
       "parent": "root_stand",
-      "length": 70.0,
+      "length": 135.0,
       "rotation": 90.0,
       "x": 0.0,
-      "y": 210.0
-    },
-    {
-      "name": "stand_torso",
-      "parent": "stand_pelvis",
-      "length": 55.0,
-      "rotation": 0.0,
-      "x": 70.0,
-      "y": 0.0
-    },
-    {
-      "name": "stand_neck",
-      "parent": "stand_torso",
-      "length": 35.0,
-      "rotation": 0.0,
-      "x": 55.0,
-      "y": 0.0
+      "y": 200.0
     },
     {
       "name": "stand_head",
-      "parent": "stand_neck",
-      "length": 55.3,
-      "rotation": 6.23,
-      "x": 35.0,
-      "y": 0.0
-    },
-    {
-      "name": "stand_shoulder_L",
       "parent": "stand_torso",
-      "length": 59.5,
-      "rotation": 109.65,
-      "x": 40.0,
+      "length": 90.1,
+      "rotation": 3.18,
+      "x": 135.0,
       "y": 0.0
     },
     {
-      "name": "stand_elbow_L",
-      "parent": "stand_shoulder_L",
-      "length": 96.2,
-      "rotation": 8.24,
-      "x": 59.5,
-      "y": 0.0
-    },
-    {
-      "name": "stand_hand_L",
-      "parent": "stand_elbow_L",
-      "length": 65.0,
-      "rotation": 129.48,
-      "x": 96.2,
-      "y": -0.0
-    },
-    {
-      "name": "stand_shoulder_R",
+      "name": "stand_leg_L",
       "parent": "stand_torso",
-      "length": 55.0,
-      "rotation": -117.03,
-      "x": 40.0,
+      "length": 193.1,
+      "rotation": 158.75,
+      "x": 0.0,
       "y": 0.0
     },
     {
-      "name": "stand_elbow_R",
-      "parent": "stand_shoulder_R",
-      "length": 72.1,
-      "rotation": -6.66,
-      "x": 55.0,
+      "name": "stand_leg_R",
+      "parent": "stand_torso",
+      "length": 189.7,
+      "rotation": -161.57,
+      "x": 0.0,
       "y": 0.0
-    },
-    {
-      "name": "stand_hand_R",
-      "parent": "stand_elbow_R",
-      "length": 40.3,
-      "rotation": -86.05,
-      "x": 72.1,
-      "y": -0.0
     },
     {
       "name": "stand_pouch",
-      "parent": "stand_pelvis",
-      "length": 116.7,
-      "rotation": -99.87,
+      "parent": "stand_torso",
+      "length": 115.4,
+      "rotation": -94.97,
       "x": 0.0,
       "y": 0.0
-    },
-    {
-      "name": "stand_hip_L",
-      "parent": "stand_pelvis",
-      "length": 99.1,
-      "rotation": 149.04,
-      "x": 0.0,
-      "y": 0.0
-    },
-    {
-      "name": "stand_knee_L",
-      "parent": "stand_hip_L",
-      "length": 60.8,
-      "rotation": 21.5,
-      "x": 99.1,
-      "y": -0.0
-    },
-    {
-      "name": "stand_foot_L",
-      "parent": "stand_knee_L",
-      "length": 53.9,
-      "rotation": -12.34,
-      "x": 60.8,
-      "y": 0.0
-    },
-    {
-      "name": "stand_hip_R",
-      "parent": "stand_pelvis",
-      "length": 95.7,
-      "rotation": -152.63,
-      "x": 0.0,
-      "y": 0.0
-    },
-    {
-      "name": "stand_knee_R",
-      "parent": "stand_hip_R",
-      "length": 60.0,
-      "rotation": -27.37,
-      "x": 95.7,
-      "y": -0.0
-    },
-    {
-      "name": "stand_foot_R",
-      "parent": "stand_knee_R",
-      "length": 53.9,
-      "rotation": 21.8,
-      "x": 60.0,
-      "y": -0.0
     },
     {
       "name": "root_flight_flap",
@@ -179,42 +83,26 @@
     {
       "name": "flap_wing_L",
       "parent": "flap_torso",
-      "length": 166.4,
-      "rotation": 57.26,
+      "length": 219.5,
+      "rotation": 59.93,
       "x": 120.0,
-      "y": 0.0
-    },
-    {
-      "name": "flap_wing_L_tip",
-      "parent": "flap_wing_L",
-      "length": 100.0,
-      "rotation": -4.13,
-      "x": 166.4,
       "y": 0.0
     },
     {
       "name": "flap_wing_R",
       "parent": "flap_torso",
-      "length": 166.4,
-      "rotation": -57.26,
+      "length": 219.5,
+      "rotation": -59.93,
       "x": 120.0,
       "y": 0.0
     },
     {
-      "name": "flap_wing_R_tip",
-      "parent": "flap_wing_R",
-      "length": 100.0,
-      "rotation": 4.13,
-      "x": 166.4,
-      "y": 0.0
-    },
-    {
       "name": "flap_legs",
-      "parent": "root_flight_flap",
+      "parent": "flap_torso",
       "length": 100.0,
-      "rotation": -90.0,
+      "rotation": 180.0,
       "x": 0.0,
-      "y": 160.0
+      "y": 0.0
     },
     {
       "name": "root_flight_glide",
@@ -225,42 +113,42 @@
     {
       "name": "glide_torso",
       "parent": "root_flight_glide",
-      "length": 134.5,
-      "rotation": 48.01,
-      "x": -40.0,
-      "y": 120.0
+      "length": 120.4,
+      "rotation": 48.37,
+      "x": -30.0,
+      "y": 130.0
     },
     {
       "name": "glide_head",
       "parent": "glide_torso",
       "length": 108.2,
-      "rotation": -14.32,
-      "x": 134.5,
+      "rotation": -14.68,
+      "x": 120.4,
       "y": -0.0
     },
     {
       "name": "glide_wing_L",
       "parent": "glide_torso",
       "length": 170.3,
-      "rotation": 82.22,
-      "x": 78.0,
-      "y": 3.0
+      "rotation": 81.87,
+      "x": 63.9,
+      "y": 3.3
     },
     {
       "name": "glide_wing_R",
       "parent": "glide_torso",
       "length": 142.1,
-      "rotation": -87.3,
-      "x": 78.0,
-      "y": 3.0
+      "rotation": -87.66,
+      "x": 63.9,
+      "y": 3.3
     },
     {
       "name": "glide_legs",
-      "parent": "root_flight_glide",
-      "length": 111.8,
-      "rotation": -153.43,
-      "x": -40.0,
-      "y": 120.0
+      "parent": "glide_torso",
+      "length": 125.3,
+      "rotation": 160.24,
+      "x": 0.0,
+      "y": 0.0
     },
     {
       "name": "root_flight_tuck",
@@ -285,20 +173,12 @@
       "y": -0.0
     },
     {
-      "name": "tuck_wings",
-      "parent": "tuck_torso",
-      "length": 107.7,
-      "rotation": 109.83,
-      "x": 78.1,
-      "y": 2.5
-    },
-    {
       "name": "tuck_legs",
-      "parent": "root_flight_tuck",
+      "parent": "tuck_torso",
       "length": 94.3,
-      "rotation": -147.99,
-      "x": -30.0,
-      "y": 120.0
+      "rotation": 163.64,
+      "x": 0.0,
+      "y": 0.0
     },
     {
       "name": "root_landing",
@@ -307,74 +187,42 @@
       "y": 0.0
     },
     {
-      "name": "land_pelvis",
+      "name": "land_torso",
       "parent": "root_landing",
-      "length": 90.0,
+      "length": 120.0,
       "rotation": 90.0,
       "x": 0.0,
-      "y": 80.0
-    },
-    {
-      "name": "land_torso",
-      "parent": "land_pelvis",
-      "length": 80.0,
-      "rotation": 0.0,
-      "x": 90.0,
-      "y": 0.0
+      "y": 110.0
     },
     {
       "name": "land_head",
       "parent": "land_torso",
-      "length": 60.0,
+      "length": 80.0,
       "rotation": 0.0,
-      "x": 80.0,
+      "x": 120.0,
       "y": 0.0
     },
     {
       "name": "land_wing_L",
       "parent": "land_torso",
-      "length": 174.9,
-      "rotation": 59.04,
-      "x": 20.0,
-      "y": 0.0
-    },
-    {
-      "name": "land_wing_L_tip",
-      "parent": "land_wing_L",
-      "length": 78.1,
-      "rotation": 81.16,
-      "x": 174.9,
+      "length": 183.8,
+      "rotation": 67.62,
+      "x": 80.0,
       "y": 0.0
     },
     {
       "name": "land_wing_R",
       "parent": "land_torso",
-      "length": 174.9,
-      "rotation": -59.04,
-      "x": 20.0,
+      "length": 183.8,
+      "rotation": -67.62,
+      "x": 80.0,
       "y": 0.0
     },
     {
-      "name": "land_wing_R_tip",
-      "parent": "land_wing_R",
-      "length": 78.1,
-      "rotation": -81.16,
-      "x": 174.9,
-      "y": 0.0
-    },
-    {
-      "name": "land_leg_L",
-      "parent": "land_pelvis",
-      "length": 92.2,
-      "rotation": 130.6,
-      "x": 0.0,
-      "y": 0.0
-    },
-    {
-      "name": "land_leg_R",
-      "parent": "land_pelvis",
-      "length": 92.2,
-      "rotation": -130.6,
+      "name": "land_legs",
+      "parent": "land_torso",
+      "length": 90.0,
+      "rotation": 180.0,
       "x": 0.0,
       "y": 0.0
     },
@@ -385,44 +233,36 @@
       "y": 0.0
     },
     {
-      "name": "crawl_pelvis",
+      "name": "crawl_torso",
       "parent": "root_crawl",
-      "length": 140.0,
+      "length": 120.0,
       "rotation": 0.0,
-      "x": -80.0,
+      "x": -60.0,
       "y": 50.0
     },
     {
-      "name": "crawl_neck",
-      "parent": "crawl_pelvis",
-      "length": 60.8,
-      "rotation": 9.46,
-      "x": 140.0,
-      "y": 0.0
-    },
-    {
       "name": "crawl_head",
-      "parent": "crawl_neck",
-      "length": 60.8,
-      "rotation": 0.0,
-      "x": 60.8,
+      "parent": "crawl_torso",
+      "length": 92.2,
+      "rotation": 12.53,
+      "x": 120.0,
       "y": 0.0
     },
     {
-      "name": "crawl_arms",
-      "parent": "crawl_pelvis",
-      "length": 92.2,
-      "rotation": -12.53,
-      "x": 160.0,
+      "name": "crawl_hands",
+      "parent": "crawl_torso",
+      "length": 103.1,
+      "rotation": -14.04,
+      "x": 120.0,
       "y": 0.0
     },
     {
       "name": "crawl_legs",
-      "parent": "root_crawl",
-      "length": 80.6,
-      "rotation": -172.87,
-      "x": -80.0,
-      "y": 50.0
+      "parent": "crawl_torso",
+      "length": 100.5,
+      "rotation": -174.29,
+      "x": 0.0,
+      "y": 0.0
     },
     {
       "name": "root_roof",
@@ -431,52 +271,44 @@
       "y": 0.0
     },
     {
-      "name": "roof_pelvis",
+      "name": "roof_torso",
       "parent": "root_roof",
-      "length": 120.0,
+      "length": 110.0,
       "rotation": 90.0,
       "x": 0.0,
-      "y": 80.0
+      "y": 110.0
     },
     {
       "name": "roof_head",
-      "parent": "roof_pelvis",
-      "length": 80.0,
+      "parent": "roof_torso",
+      "length": 60.0,
       "rotation": 0.0,
-      "x": 120.0,
+      "x": 110.0,
       "y": 0.0
     },
     {
       "name": "roof_arm_L",
-      "parent": "roof_pelvis",
+      "parent": "roof_torso",
       "length": 152.6,
       "rotation": 31.61,
-      "x": 130.0,
+      "x": 100.0,
       "y": 0.0
     },
     {
       "name": "roof_arm_R",
-      "parent": "roof_pelvis",
+      "parent": "roof_torso",
       "length": 152.6,
       "rotation": -31.61,
-      "x": 130.0,
+      "x": 100.0,
       "y": 0.0
     },
     {
-      "name": "roof_leg_L",
-      "parent": "root_roof",
-      "length": 100.0,
-      "rotation": -143.13,
+      "name": "roof_legs",
+      "parent": "roof_torso",
+      "length": 90.0,
+      "rotation": 180.0,
       "x": 0.0,
-      "y": 80.0
-    },
-    {
-      "name": "roof_leg_R",
-      "parent": "root_roof",
-      "length": 100.0,
-      "rotation": -36.87,
-      "x": 0.0,
-      "y": 80.0
+      "y": 0.0
     },
     {
       "name": "root_diag",
@@ -485,44 +317,44 @@
       "y": 0.0
     },
     {
-      "name": "diag_pelvis",
+      "name": "diag_torso",
       "parent": "root_diag",
-      "length": 138.9,
-      "rotation": 59.74,
-      "x": -40.0,
-      "y": 100.0
+      "length": 125.3,
+      "rotation": 61.39,
+      "x": -30.0,
+      "y": 110.0
     },
     {
       "name": "diag_head",
-      "parent": "diag_pelvis",
+      "parent": "diag_torso",
       "length": 103.0,
-      "rotation": 1.2,
-      "x": 138.9,
+      "rotation": -0.44,
+      "x": 125.3,
       "y": -0.0
     },
     {
       "name": "diag_arm_up",
-      "parent": "diag_pelvis",
+      "parent": "diag_torso",
       "length": 125.3,
-      "rotation": -31.13,
-      "x": 125.2,
-      "y": 3.6
+      "rotation": -32.78,
+      "x": 111.7,
+      "y": 4.0
     },
     {
       "name": "diag_arm_down",
-      "parent": "diag_pelvis",
+      "parent": "diag_torso",
       "length": 120.8,
-      "rotation": 144.7,
-      "x": 66.9,
-      "y": 4.3
+      "rotation": 143.05,
+      "x": 53.5,
+      "y": 6.4
     },
     {
       "name": "diag_legs",
-      "parent": "root_diag",
-      "length": 92.2,
-      "rotation": -130.6,
-      "x": -40.0,
-      "y": 100.0
+      "parent": "diag_torso",
+      "length": 106.3,
+      "rotation": 167.42,
+      "x": 0.0,
+      "y": 0.0
     },
     {
       "name": "root_wall",
@@ -531,44 +363,44 @@
       "y": 0.0
     },
     {
-      "name": "wall_pelvis",
+      "name": "wall_torso",
       "parent": "root_wall",
-      "length": 117.0,
-      "rotation": 70.02,
-      "x": -30.0,
-      "y": 100.0
+      "length": 104.4,
+      "rotation": 73.3,
+      "x": -20.0,
+      "y": 110.0
     },
     {
       "name": "wall_head",
-      "parent": "wall_pelvis",
+      "parent": "wall_torso",
       "length": 102.0,
-      "rotation": 8.67,
-      "x": 117.0,
-      "y": 0.0
+      "rotation": 5.39,
+      "x": 104.4,
+      "y": -0.0
     },
     {
-      "name": "wall_arm_press",
-      "parent": "wall_pelvis",
-      "length": 130.4,
-      "rotation": -65.62,
-      "x": 117.0,
-      "y": 0.0
-    },
-    {
-      "name": "wall_arm_tuck",
-      "parent": "wall_pelvis",
+      "name": "wall_hand_L",
+      "parent": "wall_torso",
       "length": 90.6,
-      "rotation": 116.32,
-      "x": 85.4,
-      "y": -0.9
+      "rotation": 113.04,
+      "x": 72.8,
+      "y": 1.0
+    },
+    {
+      "name": "wall_hand_R",
+      "parent": "wall_torso",
+      "length": 130.4,
+      "rotation": -68.9,
+      "x": 104.4,
+      "y": -0.0
     },
     {
       "name": "wall_legs",
-      "parent": "root_wall",
-      "length": 94.3,
-      "rotation": -122.01,
-      "x": -30.0,
-      "y": 100.0
+      "parent": "wall_torso",
+      "length": 108.2,
+      "rotation": 163.01,
+      "x": 0.0,
+      "y": 0.0
     },
     {
       "name": "root_scramble",
@@ -577,44 +409,44 @@
       "y": 0.0
     },
     {
-      "name": "scramble_pelvis",
+      "name": "scramble_torso",
       "parent": "root_scramble",
-      "length": 148.7,
-      "rotation": 47.73,
-      "x": -60.0,
-      "y": 120.0
+      "length": 128.1,
+      "rotation": 51.34,
+      "x": -40.0,
+      "y": 130.0
     },
     {
       "name": "scramble_head",
-      "parent": "scramble_pelvis",
+      "parent": "scramble_torso",
       "length": 114.0,
-      "rotation": 4.4,
-      "x": 148.7,
+      "rotation": 0.78,
+      "x": 128.1,
       "y": -0.0
     },
     {
-      "name": "scramble_arm_L",
-      "parent": "scramble_pelvis",
-      "length": 130.4,
-      "rotation": -52.13,
-      "x": 134.5,
-      "y": 0.7
+      "name": "scramble_hand_L",
+      "parent": "scramble_torso",
+      "length": 114.0,
+      "rotation": 76.53,
+      "x": 50.0,
+      "y": 1.6
     },
     {
-      "name": "scramble_arm_R",
-      "parent": "scramble_pelvis",
-      "length": 114.0,
-      "rotation": -122.47,
-      "x": 70.6,
-      "y": -3.4
+      "name": "scramble_hand_R",
+      "parent": "scramble_torso",
+      "length": 130.4,
+      "rotation": -55.74,
+      "x": 114.0,
+      "y": 1.6
     },
     {
       "name": "scramble_legs",
-      "parent": "root_scramble",
-      "length": 120.4,
-      "rotation": -138.37,
-      "x": -60.0,
-      "y": 120.0
+      "parent": "scramble_torso",
+      "length": 142.1,
+      "rotation": 167.95,
+      "x": 0.0,
+      "y": 0.0
     },
     {
       "name": "root_narrow",
@@ -623,7 +455,7 @@
       "y": 0.0
     },
     {
-      "name": "narrow_pelvis",
+      "name": "narrow_torso",
       "parent": "root_narrow",
       "length": 140.0,
       "rotation": 90.0,
@@ -632,35 +464,27 @@
     },
     {
       "name": "narrow_head",
-      "parent": "narrow_pelvis",
+      "parent": "narrow_torso",
       "length": 130.0,
       "rotation": 0.0,
       "x": 140.0,
       "y": 0.0
     },
     {
-      "name": "narrow_arm_L",
-      "parent": "narrow_pelvis",
-      "length": 100.6,
-      "rotation": 153.43,
-      "x": 130.0,
-      "y": 0.0
-    },
-    {
-      "name": "narrow_arm_R",
-      "parent": "narrow_pelvis",
-      "length": 100.6,
-      "rotation": -153.43,
-      "x": 130.0,
+      "name": "narrow_arm_overhead",
+      "parent": "narrow_torso",
+      "length": 171.2,
+      "rotation": 6.71,
+      "x": 140.0,
       "y": 0.0
     },
     {
       "name": "narrow_legs",
-      "parent": "root_narrow",
+      "parent": "narrow_torso",
       "length": 90.0,
-      "rotation": -90.0,
+      "rotation": 180.0,
       "x": 0.0,
-      "y": 110.0
+      "y": 0.0
     },
     {
       "name": "root_inverted",
@@ -677,7 +501,7 @@
       "y": 300.0
     },
     {
-      "name": "inv_pelvis",
+      "name": "inv_torso",
       "parent": "inv_anchor",
       "length": 110.0,
       "rotation": 0.0,
@@ -686,43 +510,27 @@
     },
     {
       "name": "inv_head",
-      "parent": "inv_pelvis",
+      "parent": "inv_torso",
       "length": 80.0,
       "rotation": 0.0,
       "x": 110.0,
       "y": -0.0
     },
     {
-      "name": "inv_arm_L",
-      "parent": "inv_pelvis",
+      "name": "inv_hand_L",
+      "parent": "inv_torso",
       "length": 98.5,
       "rotation": -66.04,
       "x": 100.0,
       "y": -0.0
     },
     {
-      "name": "inv_arm_R",
-      "parent": "inv_pelvis",
+      "name": "inv_hand_R",
+      "parent": "inv_torso",
       "length": 98.5,
       "rotation": 66.04,
       "x": 100.0,
       "y": -0.0
-    },
-    {
-      "name": "inv_claw_L",
-      "parent": "root_inverted",
-      "length": 44.7,
-      "rotation": 153.43,
-      "x": 0.0,
-      "y": 300.0
-    },
-    {
-      "name": "inv_claw_R",
-      "parent": "root_inverted",
-      "length": 44.7,
-      "rotation": 26.57,
-      "x": 0.0,
-      "y": 300.0
     },
     {
       "name": "root_shiver",
@@ -731,7 +539,7 @@
       "y": 0.0
     },
     {
-      "name": "shiver_pelvis",
+      "name": "shiver_torso",
       "parent": "root_shiver",
       "length": 130.0,
       "rotation": 90.0,
@@ -740,35 +548,27 @@
     },
     {
       "name": "shiver_head",
-      "parent": "shiver_pelvis",
+      "parent": "shiver_torso",
       "length": 110.0,
       "rotation": 0.0,
       "x": 130.0,
       "y": 0.0
     },
     {
-      "name": "shiver_arm_L",
-      "parent": "shiver_pelvis",
-      "length": 61.0,
-      "rotation": 145.01,
-      "x": 120.0,
-      "y": 0.0
-    },
-    {
-      "name": "shiver_arm_R",
-      "parent": "shiver_pelvis",
-      "length": 61.0,
-      "rotation": -145.01,
-      "x": 120.0,
+      "name": "shiver_pouch",
+      "parent": "shiver_torso",
+      "length": 40.3,
+      "rotation": -97.13,
+      "x": 0.0,
       "y": 0.0
     },
     {
       "name": "shiver_legs",
-      "parent": "root_shiver",
+      "parent": "shiver_torso",
       "length": 80.0,
-      "rotation": -90.0,
+      "rotation": 180.0,
       "x": 0.0,
-      "y": 100.0
+      "y": 0.0
     }
   ],
   "slots": [
@@ -12107,7 +11907,7 @@
             }
           ]
         },
-        "wall_arm_press": {
+        "wall_hand_R": {
           "scale": [
             {
               "time": 0.0,

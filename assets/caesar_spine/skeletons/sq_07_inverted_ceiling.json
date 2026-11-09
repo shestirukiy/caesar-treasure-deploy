@@ -1,6 +1,6 @@
 {
   "skeleton": {
-    "hash": "caesar_sq_07_inverted_ceiling_mesh_v4",
+    "hash": "caesar_sq_07_inverted_ceiling_lean_v5",
     "spine": "3.8.99",
     "x": -247.5,
     "y": 0,
@@ -27,7 +27,7 @@
       "y": 300.0
     },
     {
-      "name": "inv_pelvis",
+      "name": "inv_torso",
       "parent": "inv_anchor",
       "length": 110.0,
       "rotation": 0.0,
@@ -36,43 +36,27 @@
     },
     {
       "name": "inv_head",
-      "parent": "inv_pelvis",
+      "parent": "inv_torso",
       "length": 80.0,
       "rotation": 0.0,
       "x": 110.0,
       "y": -0.0
     },
     {
-      "name": "inv_arm_L",
-      "parent": "inv_pelvis",
+      "name": "inv_hand_L",
+      "parent": "inv_torso",
       "length": 98.5,
       "rotation": -66.04,
       "x": 100.0,
       "y": -0.0
     },
     {
-      "name": "inv_arm_R",
-      "parent": "inv_pelvis",
+      "name": "inv_hand_R",
+      "parent": "inv_torso",
       "length": 98.5,
       "rotation": 66.04,
       "x": 100.0,
       "y": -0.0
-    },
-    {
-      "name": "inv_claw_L",
-      "parent": "root_inverted",
-      "length": 44.7,
-      "rotation": 153.43,
-      "x": 0.0,
-      "y": 300.0
-    },
-    {
-      "name": "inv_claw_R",
-      "parent": "root_inverted",
-      "length": 44.7,
-      "rotation": 26.57,
-      "x": 0.0,
-      "y": 300.0
     }
   ],
   "slots": [

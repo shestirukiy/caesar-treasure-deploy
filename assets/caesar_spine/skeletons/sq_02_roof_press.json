@@ -1,6 +1,6 @@
 {
   "skeleton": {
-    "hash": "caesar_sq_02_roof_press_mesh_v4",
+    "hash": "caesar_sq_02_roof_press_lean_v5",
     "spine": "3.8.99",
     "x": -198.0,
     "y": 0,
@@ -19,52 +19,44 @@
       "y": 0.0
     },
     {
-      "name": "roof_pelvis",
+      "name": "roof_torso",
       "parent": "root_roof",
-      "length": 120.0,
+      "length": 110.0,
       "rotation": 90.0,
       "x": 0.0,
-      "y": 80.0
+      "y": 110.0
     },
     {
       "name": "roof_head",
-      "parent": "roof_pelvis",
-      "length": 80.0,
+      "parent": "roof_torso",
+      "length": 60.0,
       "rotation": 0.0,
-      "x": 120.0,
+      "x": 110.0,
       "y": 0.0
     },
     {
       "name": "roof_arm_L",
-      "parent": "roof_pelvis",
+      "parent": "roof_torso",
       "length": 152.6,
       "rotation": 31.61,
-      "x": 130.0,
+      "x": 100.0,
       "y": 0.0
     },
     {
       "name": "roof_arm_R",
-      "parent": "roof_pelvis",
+      "parent": "roof_torso",
       "length": 152.6,
       "rotation": -31.61,
-      "x": 130.0,
+      "x": 100.0,
       "y": 0.0
     },
     {
-      "name": "roof_leg_L",
-      "parent": "root_roof",
-      "length": 100.0,
-      "rotation": -143.13,
+      "name": "roof_legs",
+      "parent": "roof_torso",
+      "length": 90.0,
+      "rotation": 180.0,
       "x": 0.0,
-      "y": 80.0
-    },
-    {
-      "name": "roof_leg_R",
-      "parent": "root_roof",
-      "length": 100.0,
-      "rotation": -36.87,
-      "x": 0.0,
-      "y": 80.0
+      "y": 0.0
     }
   ],
   "slots": [

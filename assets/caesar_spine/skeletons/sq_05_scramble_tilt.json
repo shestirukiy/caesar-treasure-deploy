@@ -1,6 +1,6 @@
 {
   "skeleton": {
-    "hash": "caesar_sq_05_scramble_tilt_mesh_v4",
+    "hash": "caesar_sq_05_scramble_tilt_lean_v5",
     "spine": "3.8.99",
     "x": -248.0,
     "y": 0,
@@ -19,44 +19,44 @@
       "y": 0.0
     },
     {
-      "name": "scramble_pelvis",
+      "name": "scramble_torso",
       "parent": "root_scramble",
-      "length": 148.7,
-      "rotation": 47.73,
-      "x": -60.0,
-      "y": 120.0
+      "length": 128.1,
+      "rotation": 51.34,
+      "x": -40.0,
+      "y": 130.0
     },
     {
       "name": "scramble_head",
-      "parent": "scramble_pelvis",
+      "parent": "scramble_torso",
       "length": 114.0,
-      "rotation": 4.4,
-      "x": 148.7,
+      "rotation": 0.78,
+      "x": 128.1,
       "y": -0.0
     },
     {
-      "name": "scramble_arm_L",
-      "parent": "scramble_pelvis",
-      "length": 130.4,
-      "rotation": -52.13,
-      "x": 134.5,
-      "y": 0.7
+      "name": "scramble_hand_L",
+      "parent": "scramble_torso",
+      "length": 114.0,
+      "rotation": 76.53,
+      "x": 50.0,
+      "y": 1.6
     },
     {
-      "name": "scramble_arm_R",
-      "parent": "scramble_pelvis",
-      "length": 114.0,
-      "rotation": -122.47,
-      "x": 70.6,
-      "y": -3.4
+      "name": "scramble_hand_R",
+      "parent": "scramble_torso",
+      "length": 130.4,
+      "rotation": -55.74,
+      "x": 114.0,
+      "y": 1.6
     },
     {
       "name": "scramble_legs",
-      "parent": "root_scramble",
-      "length": 120.4,
-      "rotation": -138.37,
-      "x": -60.0,
-      "y": 120.0
+      "parent": "scramble_torso",
+      "length": 142.1,
+      "rotation": 167.95,
+      "x": 0.0,
+      "y": 0.0
     }
   ],
   "slots": [

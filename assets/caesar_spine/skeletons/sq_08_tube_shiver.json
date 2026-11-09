@@ -1,6 +1,6 @@
 {
   "skeleton": {
-    "hash": "caesar_sq_08_tube_shiver_mesh_v4",
+    "hash": "caesar_sq_08_tube_shiver_lean_v5",
     "spine": "3.8.99",
     "x": -135.0,
     "y": 0,
@@ -19,7 +19,7 @@
       "y": 0.0
     },
     {
-      "name": "shiver_pelvis",
+      "name": "shiver_torso",
       "parent": "root_shiver",
       "length": 130.0,
       "rotation": 90.0,
@@ -28,35 +28,27 @@
     },
     {
       "name": "shiver_head",
-      "parent": "shiver_pelvis",
+      "parent": "shiver_torso",
       "length": 110.0,
       "rotation": 0.0,
       "x": 130.0,
       "y": 0.0
     },
     {
-      "name": "shiver_arm_L",
-      "parent": "shiver_pelvis",
-      "length": 61.0,
-      "rotation": 145.01,
-      "x": 120.0,
-      "y": 0.0
-    },
-    {
-      "name": "shiver_arm_R",
-      "parent": "shiver_pelvis",
-      "length": 61.0,
-      "rotation": -145.01,
-      "x": 120.0,
+      "name": "shiver_pouch",
+      "parent": "shiver_torso",
+      "length": 40.3,
+      "rotation": -97.13,
+      "x": 0.0,
       "y": 0.0
     },
     {
       "name": "shiver_legs",
-      "parent": "root_shiver",
+      "parent": "shiver_torso",
       "length": 80.0,
-      "rotation": -90.0,
+      "rotation": 180.0,
       "x": 0.0,
-      "y": 100.0
+      "y": 0.0
     }
   ],
   "slots": [

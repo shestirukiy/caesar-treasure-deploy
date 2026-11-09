@@ -1,6 +1,6 @@
 {
   "skeleton": {
-    "hash": "caesar_flight_tucked_45_mesh_v4",
+    "hash": "caesar_flight_tucked_45_lean_v5",
     "spine": "3.8.99",
     "x": -177.0,
     "y": 0,
@@ -35,20 +35,12 @@
       "y": -0.0
     },
     {
-      "name": "tuck_wings",
-      "parent": "tuck_torso",
-      "length": 107.7,
-      "rotation": 109.83,
-      "x": 78.1,
-      "y": 2.5
-    },
-    {
       "name": "tuck_legs",
-      "parent": "root_flight_tuck",
+      "parent": "tuck_torso",
       "length": 94.3,
-      "rotation": -147.99,
-      "x": -30.0,
-      "y": 120.0
+      "rotation": 163.64,
+      "x": 0.0,
+      "y": 0.0
     }
   ],
   "slots": [

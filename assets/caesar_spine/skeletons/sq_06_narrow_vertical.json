@@ -1,6 +1,6 @@
 {
   "skeleton": {
-    "hash": "caesar_sq_06_narrow_vertical_mesh_v4",
+    "hash": "caesar_sq_06_narrow_vertical_lean_v5",
     "spine": "3.8.99",
     "x": -142.5,
     "y": 0,
@@ -19,7 +19,7 @@
       "y": 0.0
     },
     {
-      "name": "narrow_pelvis",
+      "name": "narrow_torso",
       "parent": "root_narrow",
       "length": 140.0,
       "rotation": 90.0,
@@ -28,35 +28,27 @@
     },
     {
       "name": "narrow_head",
-      "parent": "narrow_pelvis",
+      "parent": "narrow_torso",
       "length": 130.0,
       "rotation": 0.0,
       "x": 140.0,
       "y": 0.0
     },
     {
-      "name": "narrow_arm_L",
-      "parent": "narrow_pelvis",
-      "length": 100.6,
-      "rotation": 153.43,
-      "x": 130.0,
-      "y": 0.0
-    },
-    {
-      "name": "narrow_arm_R",
-      "parent": "narrow_pelvis",
-      "length": 100.6,
-      "rotation": -153.43,
-      "x": 130.0,
+      "name": "narrow_arm_overhead",
+      "parent": "narrow_torso",
+      "length": 171.2,
+      "rotation": 6.71,
+      "x": 140.0,
       "y": 0.0
     },
     {
       "name": "narrow_legs",
-      "parent": "root_narrow",
+      "parent": "narrow_torso",
       "length": 90.0,
-      "rotation": -90.0,
+      "rotation": 180.0,
       "x": 0.0,
-      "y": 110.0
+      "y": 0.0
     }
   ],
   "slots": [

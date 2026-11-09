@@ -1,6 +1,6 @@
 {
   "skeleton": {
-    "hash": "caesar_stand_idle_mesh_v4",
+    "hash": "caesar_stand_idle_lean_v5",
     "spine": "3.8.99",
     "x": -166.0,
     "y": 0,
@@ -19,140 +19,44 @@
       "y": 0.0
     },
     {
-      "name": "stand_pelvis",
+      "name": "stand_torso",
       "parent": "root_stand",
-      "length": 70.0,
+      "length": 135.0,
       "rotation": 90.0,
       "x": 0.0,
-      "y": 210.0
-    },
-    {
-      "name": "stand_torso",
-      "parent": "stand_pelvis",
-      "length": 55.0,
-      "rotation": 0.0,
-      "x": 70.0,
-      "y": 0.0
-    },
-    {
-      "name": "stand_neck",
-      "parent": "stand_torso",
-      "length": 35.0,
-      "rotation": 0.0,
-      "x": 55.0,
-      "y": 0.0
+      "y": 200.0
     },
     {
       "name": "stand_head",
-      "parent": "stand_neck",
-      "length": 55.3,
-      "rotation": 6.23,
-      "x": 35.0,
-      "y": 0.0
-    },
-    {
-      "name": "stand_shoulder_L",
       "parent": "stand_torso",
-      "length": 59.5,
-      "rotation": 109.65,
-      "x": 40.0,
+      "length": 90.1,
+      "rotation": 3.18,
+      "x": 135.0,
       "y": 0.0
     },
     {
-      "name": "stand_elbow_L",
-      "parent": "stand_shoulder_L",
-      "length": 96.2,
-      "rotation": 8.24,
-      "x": 59.5,
-      "y": 0.0
-    },
-    {
-      "name": "stand_hand_L",
-      "parent": "stand_elbow_L",
-      "length": 65.0,
-      "rotation": 129.48,
-      "x": 96.2,
-      "y": -0.0
-    },
-    {
-      "name": "stand_shoulder_R",
+      "name": "stand_leg_L",
       "parent": "stand_torso",
-      "length": 55.0,
-      "rotation": -117.03,
-      "x": 40.0,
+      "length": 193.1,
+      "rotation": 158.75,
+      "x": 0.0,
       "y": 0.0
     },
     {
-      "name": "stand_elbow_R",
-      "parent": "stand_shoulder_R",
-      "length": 72.1,
-      "rotation": -6.66,
-      "x": 55.0,
+      "name": "stand_leg_R",
+      "parent": "stand_torso",
+      "length": 189.7,
+      "rotation": -161.57,
+      "x": 0.0,
       "y": 0.0
-    },
-    {
-      "name": "stand_hand_R",
-      "parent": "stand_elbow_R",
-      "length": 40.3,
-      "rotation": -86.05,
-      "x": 72.1,
-      "y": -0.0
     },
     {
       "name": "stand_pouch",
-      "parent": "stand_pelvis",
-      "length": 116.7,
-      "rotation": -99.87,
+      "parent": "stand_torso",
+      "length": 115.4,
+      "rotation": -94.97,
       "x": 0.0,
       "y": 0.0
-    },
-    {
-      "name": "stand_hip_L",
-      "parent": "stand_pelvis",
-      "length": 99.1,
-      "rotation": 149.04,
-      "x": 0.0,
-      "y": 0.0
-    },
-    {
-      "name": "stand_knee_L",
-      "parent": "stand_hip_L",
-      "length": 60.8,
-      "rotation": 21.5,
-      "x": 99.1,
-      "y": -0.0
-    },
-    {
-      "name": "stand_foot_L",
-      "parent": "stand_knee_L",
-      "length": 53.9,
-      "rotation": -12.34,
-      "x": 60.8,
-      "y": 0.0
-    },
-    {
-      "name": "stand_hip_R",
-      "parent": "stand_pelvis",
-      "length": 95.7,
-      "rotation": -152.63,
-      "x": 0.0,
-      "y": 0.0
-    },
-    {
-      "name": "stand_knee_R",
-      "parent": "stand_hip_R",
-      "length": 60.0,
-      "rotation": -27.37,
-      "x": 95.7,
-      "y": -0.0
-    },
-    {
-      "name": "stand_foot_R",
-      "parent": "stand_knee_R",
-      "length": 53.9,
-      "rotation": 21.8,
-      "x": 60.0,
-      "y": -0.0
     }
   ],
   "slots": [

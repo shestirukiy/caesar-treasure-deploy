@@ -1,6 +1,6 @@
 {
   "skeleton": {
-    "hash": "caesar_sq_04_wall_brace_mesh_v4",
+    "hash": "caesar_sq_04_wall_brace_lean_v5",
     "spine": "3.8.99",
     "x": -225.5,
     "y": 0,
@@ -19,44 +19,44 @@
       "y": 0.0
     },
     {
-      "name": "wall_pelvis",
+      "name": "wall_torso",
       "parent": "root_wall",
-      "length": 117.0,
-      "rotation": 70.02,
-      "x": -30.0,
-      "y": 100.0
+      "length": 104.4,
+      "rotation": 73.3,
+      "x": -20.0,
+      "y": 110.0
     },
     {
       "name": "wall_head",
-      "parent": "wall_pelvis",
+      "parent": "wall_torso",
       "length": 102.0,
-      "rotation": 8.67,
-      "x": 117.0,
-      "y": 0.0
+      "rotation": 5.39,
+      "x": 104.4,
+      "y": -0.0
     },
     {
-      "name": "wall_arm_press",
-      "parent": "wall_pelvis",
-      "length": 130.4,
-      "rotation": -65.62,
-      "x": 117.0,
-      "y": 0.0
-    },
-    {
-      "name": "wall_arm_tuck",
-      "parent": "wall_pelvis",
+      "name": "wall_hand_L",
+      "parent": "wall_torso",
       "length": 90.6,
-      "rotation": 116.32,
-      "x": 85.4,
-      "y": -0.9
+      "rotation": 113.04,
+      "x": 72.8,
+      "y": 1.0
+    },
+    {
+      "name": "wall_hand_R",
+      "parent": "wall_torso",
+      "length": 130.4,
+      "rotation": -68.9,
+      "x": 104.4,
+      "y": -0.0
     },
     {
       "name": "wall_legs",
-      "parent": "root_wall",
-      "length": 94.3,
-      "rotation": -122.01,
-      "x": -30.0,
-      "y": 100.0
+      "parent": "wall_torso",
+      "length": 108.2,
+      "rotation": 163.01,
+      "x": 0.0,
+      "y": 0.0
     }
   ],
   "slots": [
@@ -788,7 +788,7 @@
             }
           ]
         },
-        "wall_arm_press": {
+        "wall_hand_R": {
           "scale": [
             {
               "time": 0.0,

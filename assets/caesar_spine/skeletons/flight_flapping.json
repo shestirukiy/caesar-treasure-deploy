@@ -1,6 +1,6 @@
 {
   "skeleton": {
-    "hash": "caesar_flight_flapping_mesh_v4",
+    "hash": "caesar_flight_flapping_lean_v5",
     "spine": "3.8.99",
     "x": -243.5,
     "y": 0,
@@ -37,42 +37,26 @@
     {
       "name": "flap_wing_L",
       "parent": "flap_torso",
-      "length": 166.4,
-      "rotation": 57.26,
+      "length": 219.5,
+      "rotation": 59.93,
       "x": 120.0,
-      "y": 0.0
-    },
-    {
-      "name": "flap_wing_L_tip",
-      "parent": "flap_wing_L",
-      "length": 100.0,
-      "rotation": -4.13,
-      "x": 166.4,
       "y": 0.0
     },
     {
       "name": "flap_wing_R",
       "parent": "flap_torso",
-      "length": 166.4,
-      "rotation": -57.26,
+      "length": 219.5,
+      "rotation": -59.93,
       "x": 120.0,
       "y": 0.0
     },
     {
-      "name": "flap_wing_R_tip",
-      "parent": "flap_wing_R",
-      "length": 100.0,
-      "rotation": 4.13,
-      "x": 166.4,
-      "y": 0.0
-    },
-    {
       "name": "flap_legs",
-      "parent": "root_flight_flap",
+      "parent": "flap_torso",
       "length": 100.0,
-      "rotation": -90.0,
+      "rotation": 180.0,
       "x": 0.0,
-      "y": 160.0
+      "y": 0.0
     }
   ],
   "slots": [

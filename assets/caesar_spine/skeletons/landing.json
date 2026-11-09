@@ -1,6 +1,6 @@
 {
   "skeleton": {
-    "hash": "caesar_landing_mesh_v4",
+    "hash": "caesar_landing_lean_v5",
     "spine": "3.8.99",
     "x": -225.5,
     "y": 0,
@@ -19,74 +19,42 @@
       "y": 0.0
     },
     {
-      "name": "land_pelvis",
+      "name": "land_torso",
       "parent": "root_landing",
-      "length": 90.0,
+      "length": 120.0,
       "rotation": 90.0,
       "x": 0.0,
-      "y": 80.0
-    },
-    {
-      "name": "land_torso",
-      "parent": "land_pelvis",
-      "length": 80.0,
-      "rotation": 0.0,
-      "x": 90.0,
-      "y": 0.0
+      "y": 110.0
     },
     {
       "name": "land_head",
       "parent": "land_torso",
-      "length": 60.0,
+      "length": 80.0,
       "rotation": 0.0,
-      "x": 80.0,
+      "x": 120.0,
       "y": 0.0
     },
     {
       "name": "land_wing_L",
       "parent": "land_torso",
-      "length": 174.9,
-      "rotation": 59.04,
-      "x": 20.0,
-      "y": 0.0
-    },
-    {
-      "name": "land_wing_L_tip",
-      "parent": "land_wing_L",
-      "length": 78.1,
-      "rotation": 81.16,
-      "x": 174.9,
+      "length": 183.8,
+      "rotation": 67.62,
+      "x": 80.0,
       "y": 0.0
     },
     {
       "name": "land_wing_R",
       "parent": "land_torso",
-      "length": 174.9,
-      "rotation": -59.04,
-      "x": 20.0,
+      "length": 183.8,
+      "rotation": -67.62,
+      "x": 80.0,
       "y": 0.0
     },
     {
-      "name": "land_wing_R_tip",
-      "parent": "land_wing_R",
-      "length": 78.1,
-      "rotation": -81.16,
-      "x": 174.9,
-      "y": 0.0
-    },
-    {
-      "name": "land_leg_L",
-      "parent": "land_pelvis",
-      "length": 92.2,
-      "rotation": 130.6,
-      "x": 0.0,
-      "y": 0.0
-    },
-    {
-      "name": "land_leg_R",
-      "parent": "land_pelvis",
-      "length": 92.2,
-      "rotation": -130.6,
+      "name": "land_legs",
+      "parent": "land_torso",
+      "length": 90.0,
+      "rotation": 180.0,
       "x": 0.0,
       "y": 0.0
     }
