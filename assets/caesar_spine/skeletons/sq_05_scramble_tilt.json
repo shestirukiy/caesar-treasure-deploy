@@ -1,0 +1,139 @@
+{
+  "skeleton": {
+    "hash": "caesar_sq_05_scramble_tilt_v1",
+    "spine": "3.8.99",
+    "x": -248.0,
+    "y": 0,
+    "width": 496,
+    "height": 438,
+    "images": "../images/"
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "body",
+      "parent": "root",
+      "x": 0,
+      "y": 110,
+      "rotation": -20
+    },
+    {
+      "name": "torso",
+      "parent": "body",
+      "length": 130,
+      "rotation": 90,
+      "x": 0,
+      "y": 20
+    },
+    {
+      "name": "head",
+      "parent": "torso",
+      "length": 85,
+      "rotation": 15,
+      "x": 130,
+      "y": 0
+    },
+    {
+      "name": "arm_scramble_L",
+      "parent": "torso",
+      "length": 110,
+      "rotation": 120,
+      "x": 90,
+      "y": 40
+    },
+    {
+      "name": "arm_scramble_R",
+      "parent": "torso",
+      "length": 110,
+      "rotation": -80,
+      "x": 90,
+      "y": -40
+    },
+    {
+      "name": "leg_kick",
+      "parent": "body",
+      "length": 80,
+      "rotation": -60,
+      "x": 30,
+      "y": -30
+    }
+  ],
+  "slots": [
+    {
+      "name": "character",
+      "bone": "body",
+      "attachment": "sq_05_scramble_tilt"
+    }
+  ],
+  "skins": {
+    "default": {
+      "character": {
+        "sq_05_scramble_tilt": {
+          "x": 0,
+          "y": 219.0,
+          "width": 496,
+          "height": 438
+        }
+      }
+    }
+  },
+  "animations": {
+    "sq_05_scramble_tilt": {
+      "slots": {
+        "character": {
+          "attachment": [
+            {
+              "time": 0.0,
+              "name": "sq_05_scramble_tilt"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "body": {
+          "rotate": [
+            {
+              "time": 0.0,
+              "angle": -3.5,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.4,
+              "angle": 3.5,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.8,
+              "angle": -3.5
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.0,
+              "x": -2.0,
+              "y": 0.0,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.4,
+              "x": 2.0,
+              "y": 3.0,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.8,
+              "x": -2.0,
+              "y": 0.0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

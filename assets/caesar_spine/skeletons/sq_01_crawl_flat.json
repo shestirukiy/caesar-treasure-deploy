@@ -1,0 +1,132 @@
+{
+  "skeleton": {
+    "hash": "caesar_sq_01_crawl_flat_v1",
+    "spine": "3.8.99",
+    "x": -217.0,
+    "y": 0,
+    "width": 434,
+    "height": 210,
+    "images": "../images/"
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "body",
+      "parent": "root",
+      "x": 0,
+      "y": 50
+    },
+    {
+      "name": "spine_flat",
+      "parent": "body",
+      "length": 160,
+      "rotation": 0,
+      "x": -60,
+      "y": 0
+    },
+    {
+      "name": "head_front",
+      "parent": "spine_flat",
+      "length": 80,
+      "rotation": 15,
+      "x": 160,
+      "y": 20
+    },
+    {
+      "name": "arms_reach",
+      "parent": "spine_flat",
+      "length": 90,
+      "rotation": -25,
+      "x": 120,
+      "y": -20
+    },
+    {
+      "name": "legs_trail",
+      "parent": "body",
+      "length": 80,
+      "rotation": 180,
+      "x": -60,
+      "y": 0
+    }
+  ],
+  "slots": [
+    {
+      "name": "character",
+      "bone": "body",
+      "attachment": "sq_01_crawl_flat"
+    }
+  ],
+  "skins": {
+    "default": {
+      "character": {
+        "sq_01_crawl_flat": {
+          "x": 0,
+          "y": 105.0,
+          "width": 434,
+          "height": 210
+        }
+      }
+    }
+  },
+  "animations": {
+    "sq_01_crawl_flat": {
+      "slots": {
+        "character": {
+          "attachment": [
+            {
+              "time": 0.0,
+              "name": "sq_01_crawl_flat"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "body": {
+          "translate": [
+            {
+              "time": 0.0,
+              "x": -6.0,
+              "y": 0.0,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "x": 6.0,
+              "y": 2.0,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1.0,
+              "x": -6.0,
+              "y": 0.0
+            }
+          ]
+        },
+        "head_front": {
+          "rotate": [
+            {
+              "time": 0.0,
+              "angle": 0.0,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "angle": 3.0,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1.0,
+              "angle": 0.0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

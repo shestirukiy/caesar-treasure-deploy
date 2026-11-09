@@ -1,0 +1,120 @@
+{
+  "skeleton": {
+    "hash": "caesar_sq_04_wall_brace_v1",
+    "spine": "3.8.99",
+    "x": -225.5,
+    "y": 0,
+    "width": 451,
+    "height": 390,
+    "images": "../images/"
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "body",
+      "parent": "root",
+      "x": 0,
+      "y": 90
+    },
+    {
+      "name": "torso",
+      "parent": "body",
+      "length": 130,
+      "rotation": 85,
+      "x": 0,
+      "y": 20
+    },
+    {
+      "name": "head",
+      "parent": "torso",
+      "length": 80,
+      "rotation": 0,
+      "x": 130,
+      "y": 0
+    },
+    {
+      "name": "arm_brace_wall",
+      "parent": "torso",
+      "length": 110,
+      "rotation": -30,
+      "x": 90,
+      "y": -30
+    },
+    {
+      "name": "back_brace_wall",
+      "parent": "torso",
+      "length": 70,
+      "rotation": 160,
+      "x": 60,
+      "y": 40
+    },
+    {
+      "name": "legs",
+      "parent": "body",
+      "length": 70,
+      "rotation": -90,
+      "x": 0,
+      "y": -20
+    }
+  ],
+  "slots": [
+    {
+      "name": "character",
+      "bone": "body",
+      "attachment": "sq_04_wall_brace"
+    }
+  ],
+  "skins": {
+    "default": {
+      "character": {
+        "sq_04_wall_brace": {
+          "x": 0,
+          "y": 195.0,
+          "width": 451,
+          "height": 390
+        }
+      }
+    }
+  },
+  "animations": {
+    "sq_04_wall_brace": {
+      "slots": {
+        "character": {
+          "attachment": [
+            {
+              "time": 0.0,
+              "name": "sq_04_wall_brace"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "body": {
+          "translate": [
+            {
+              "time": 0.0,
+              "x": 0.0,
+              "y": 0.0,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "x": 3.5,
+              "y": 0.0,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1.0,
+              "x": 0.0,
+              "y": 0.0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

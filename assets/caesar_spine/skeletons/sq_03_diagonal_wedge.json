@@ -1,0 +1,118 @@
+{
+  "skeleton": {
+    "hash": "caesar_sq_03_diagonal_wedge_v1",
+    "spine": "3.8.99",
+    "x": -220.5,
+    "y": 0,
+    "width": 441,
+    "height": 417,
+    "images": "../images/"
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "body",
+      "parent": "root",
+      "x": 0,
+      "y": 100,
+      "rotation": 38
+    },
+    {
+      "name": "torso",
+      "parent": "body",
+      "length": 130,
+      "rotation": 70,
+      "x": 0,
+      "y": 20
+    },
+    {
+      "name": "head",
+      "parent": "torso",
+      "length": 80,
+      "rotation": -10,
+      "x": 130,
+      "y": 0
+    },
+    {
+      "name": "arm_up",
+      "parent": "torso",
+      "length": 100,
+      "rotation": 45,
+      "x": 90,
+      "y": 30
+    },
+    {
+      "name": "arm_down",
+      "parent": "torso",
+      "length": 90,
+      "rotation": -130,
+      "x": 90,
+      "y": -30
+    },
+    {
+      "name": "legs",
+      "parent": "body",
+      "length": 70,
+      "rotation": -110,
+      "x": -30,
+      "y": -20
+    }
+  ],
+  "slots": [
+    {
+      "name": "character",
+      "bone": "body",
+      "attachment": "sq_03_diagonal_wedge"
+    }
+  ],
+  "skins": {
+    "default": {
+      "character": {
+        "sq_03_diagonal_wedge": {
+          "x": 0,
+          "y": 208.5,
+          "width": 441,
+          "height": 417
+        }
+      }
+    }
+  },
+  "animations": {
+    "sq_03_diagonal_wedge": {
+      "slots": {
+        "character": {
+          "attachment": [
+            {
+              "time": 0.0,
+              "name": "sq_03_diagonal_wedge"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "body": {
+          "rotate": [
+            {
+              "time": 0.0,
+              "angle": -2.0,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.5,
+              "angle": 2.5,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 1.0,
+              "angle": -2.0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

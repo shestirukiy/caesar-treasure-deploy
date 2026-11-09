@@ -1,0 +1,173 @@
+{
+  "skeleton": {
+    "hash": "caesar_landing_v1",
+    "spine": "3.8.99",
+    "x": -225.5,
+    "y": 0,
+    "width": 451,
+    "height": 368,
+    "images": "../images/"
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "body",
+      "parent": "root",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "name": "torso",
+      "parent": "body",
+      "length": 120,
+      "rotation": 90,
+      "x": 0,
+      "y": 80
+    },
+    {
+      "name": "head",
+      "parent": "torso",
+      "length": 80,
+      "rotation": 0,
+      "x": 130,
+      "y": 0
+    },
+    {
+      "name": "wing_L",
+      "parent": "torso",
+      "length": 110,
+      "rotation": 125,
+      "x": 90,
+      "y": 40
+    },
+    {
+      "name": "wing_R",
+      "parent": "torso",
+      "length": 110,
+      "rotation": -125,
+      "x": 90,
+      "y": -40
+    },
+    {
+      "name": "leg_L",
+      "parent": "body",
+      "length": 50,
+      "rotation": -90,
+      "x": -50,
+      "y": 60
+    },
+    {
+      "name": "leg_R",
+      "parent": "body",
+      "length": 50,
+      "rotation": -90,
+      "x": 50,
+      "y": 60
+    }
+  ],
+  "slots": [
+    {
+      "name": "character",
+      "bone": "body",
+      "attachment": "landing_flared"
+    }
+  ],
+  "skins": {
+    "default": {
+      "character": {
+        "landing_flared": {
+          "x": 0,
+          "y": 184.0,
+          "width": 451,
+          "height": 368
+        },
+        "landing_crouch": {
+          "x": 0,
+          "y": 164.0,
+          "width": 402,
+          "height": 328
+        }
+      }
+    }
+  },
+  "animations": {
+    "landing": {
+      "slots": {
+        "character": {
+          "attachment": [
+            {
+              "time": 0.0,
+              "name": "landing_flared"
+            },
+            {
+              "time": 0.25,
+              "name": "landing_crouch"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "body": {
+          "translate": [
+            {
+              "time": 0.0,
+              "x": 0.0,
+              "y": 35.0,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.25,
+              "x": 0.0,
+              "y": 0.0,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.35,
+              "x": 0.0,
+              "y": -8.0,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.55,
+              "x": 0.0,
+              "y": 0.0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.0,
+              "x": 1.0,
+              "y": 1.0,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.25,
+              "x": 1.0,
+              "y": 1.0,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.35,
+              "x": 1.05,
+              "y": 0.93,
+              "curve": 0.25,
+              "c3": 0.75
+            },
+            {
+              "time": 0.55,
+              "x": 1.0,
+              "y": 1.0
+            }
+          ]
+        }
+      }
+    }
+  }
+}
