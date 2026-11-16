@@ -1,7 +1,7 @@
 {
   "skeleton": {
     "hash": "Caesar_flight_tucked_45",
-    "spine": "3.8.75",
+    "spine": "3.8.99",
     "width": 600,
     "height": 550,
     "images": "../images/",
@@ -18,25 +18,25 @@
     {
       "name": "tuck_torso",
       "parent": "root_flight_tuck",
-      "x": -20.0,
-      "y": 130.0,
-      "length": 130.0,
-      "rotation": 45.0,
+      "x": -20,
+      "y": 130,
+      "length": 130,
+      "rotation": 45,
       "color": "4488ffff"
     },
     {
       "name": "tuck_head",
       "parent": "tuck_torso",
-      "x": 130.0,
-      "length": 100.0,
-      "rotation": -10.0,
+      "x": 130,
+      "length": 100,
+      "rotation": -10,
       "color": "33ccffff"
     },
     {
       "name": "tuck_legs",
       "parent": "tuck_torso",
-      "length": 100.0,
-      "rotation": 165.0,
+      "length": 100,
+      "rotation": 165,
       "color": "33ff88ff"
     }
   ],
@@ -490,32 +490,32 @@
               4,
               156.3,
               58.72,
-              1.0,
+              1,
               1,
               4,
               159.06,
               37.49,
-              1.0,
+              1,
               1,
               4,
               182.98,
               32.92,
-              1.0,
+              1,
               1,
               4,
               183.5,
               11.83,
-              1.0,
+              1,
               1,
               4,
               155.78,
               -2.18,
-              1.0,
+              1,
               1,
               4,
               168.1,
               -20.84,
-              1.0,
+              1,
               2,
               4,
               134.95,
@@ -683,7 +683,7 @@
               0.499,
               4,
               -29.45,
-              -95.0,
+              -95,
               0.3135,
               3,
               -90.41,
@@ -713,7 +713,7 @@
               0.4677,
               4,
               -107.39,
-              -50.0,
+              -50,
               0.0508,
               2,
               3,
@@ -971,107 +971,11 @@
   "animations": {
     "flight_tucked_45": {
       "slots": {
-        "slot_stand": {
-          "attachment": [
-            {
-              "time": 0,
-              "name": null
-            }
-          ]
-        },
-        "slot_flight_flap": {
-          "attachment": [
-            {
-              "time": 0,
-              "name": null
-            }
-          ]
-        },
-        "slot_flight_glide": {
-          "attachment": [
-            {
-              "time": 0,
-              "name": null
-            }
-          ]
-        },
         "slot_flight_tuck": {
           "attachment": [
             {
               "time": 0,
               "name": "flight_tucked_45"
-            }
-          ]
-        },
-        "slot_landing": {
-          "attachment": [
-            {
-              "time": 0,
-              "name": null
-            }
-          ]
-        },
-        "slot_sq_01": {
-          "attachment": [
-            {
-              "time": 0,
-              "name": null
-            }
-          ]
-        },
-        "slot_sq_02": {
-          "attachment": [
-            {
-              "time": 0,
-              "name": null
-            }
-          ]
-        },
-        "slot_sq_03": {
-          "attachment": [
-            {
-              "time": 0,
-              "name": null
-            }
-          ]
-        },
-        "slot_sq_04": {
-          "attachment": [
-            {
-              "time": 0,
-              "name": null
-            }
-          ]
-        },
-        "slot_sq_05": {
-          "attachment": [
-            {
-              "time": 0,
-              "name": null
-            }
-          ]
-        },
-        "slot_sq_06": {
-          "attachment": [
-            {
-              "time": 0,
-              "name": null
-            }
-          ]
-        },
-        "slot_sq_07": {
-          "attachment": [
-            {
-              "time": 0,
-              "name": null
-            }
-          ]
-        },
-        "slot_sq_08": {
-          "attachment": [
-            {
-              "time": 0,
-              "name": null
             }
           ]
         }

@@ -1,7 +1,7 @@
 {
   "skeleton": {
     "hash": "Caesar_sq_03_diagonal_wedge",
-    "spine": "3.8.75",
+    "spine": "3.8.99",
     "width": 600,
     "height": 550,
     "images": "../images/",
@@ -18,46 +18,46 @@
     {
       "name": "diag_torso",
       "parent": "root_diag",
-      "x": -15.0,
-      "y": 160.0,
-      "length": 90.0,
-      "rotation": 55.0,
+      "x": -15,
+      "y": 160,
+      "length": 90,
+      "rotation": 55,
       "color": "4488ffff"
     },
     {
       "name": "diag_arm_up",
       "parent": "diag_torso",
-      "x": 80.0,
-      "y": 25.0,
-      "length": 140.0,
-      "rotation": -30.0,
+      "x": 80,
+      "y": 25,
+      "length": 140,
+      "rotation": -30,
       "color": "ff33aaff"
     },
     {
       "name": "diag_arm_down",
       "parent": "diag_torso",
-      "x": 40.0,
-      "y": -30.0,
-      "length": 130.0,
-      "rotation": 145.0,
+      "x": 40,
+      "y": -30,
+      "length": 130,
+      "rotation": 145,
       "color": "ff33aaff"
     },
     {
       "name": "diag_leg_L",
       "parent": "diag_torso",
-      "x": -10.0,
-      "y": 40.0,
-      "length": 120.0,
-      "rotation": 115.0,
+      "x": -10,
+      "y": 40,
+      "length": 120,
+      "rotation": 115,
       "color": "33ff88ff"
     },
     {
       "name": "diag_leg_R",
       "parent": "diag_torso",
-      "x": -10.0,
-      "y": -40.0,
-      "length": 120.0,
-      "rotation": -145.0,
+      "x": -10,
+      "y": -40,
+      "length": 120,
+      "rotation": -145,
       "color": "33ff88ff"
     }
   ],
@@ -551,7 +551,7 @@
               6,
               113.67,
               -7.04,
-              1.0,
+              1,
               2,
               6,
               128.86,
@@ -629,14 +629,14 @@
               0.1033,
               1,
               5,
-              179.0,
+              179,
               -53.33,
-              1.0,
+              1,
               1,
               5,
               142.88,
               -81.72,
-              1.0,
+              1,
               2,
               5,
               97.84,
@@ -766,7 +766,7 @@
               0.5177,
               2,
               111.12,
-              54.0,
+              54,
               0.3904,
               4,
               -10.08,
@@ -826,7 +826,7 @@
               0.2108,
               3,
               3,
-              75.0,
+              75,
               -38.14,
               0.4783,
               2,
@@ -1042,7 +1042,7 @@
               86.44,
               0.2693,
               2,
-              -99.0,
+              -99,
               -38.19,
               0.144
             ],
@@ -1111,107 +1111,11 @@
   "animations": {
     "sq_03_diagonal_wedge": {
       "slots": {
-        "slot_stand": {
-          "attachment": [
-            {
-              "time": 0,
-              "name": null
-            }
-          ]
-        },
-        "slot_flight_flap": {
-          "attachment": [
-            {
-              "time": 0,
-              "name": null
-            }
-          ]
-        },
-        "slot_flight_glide": {
-          "attachment": [
-            {
-              "time": 0,
-              "name": null
-            }
-          ]
-        },
-        "slot_flight_tuck": {
-          "attachment": [
-            {
-              "time": 0,
-              "name": null
-            }
-          ]
-        },
-        "slot_landing": {
-          "attachment": [
-            {
-              "time": 0,
-              "name": null
-            }
-          ]
-        },
-        "slot_sq_01": {
-          "attachment": [
-            {
-              "time": 0,
-              "name": null
-            }
-          ]
-        },
-        "slot_sq_02": {
-          "attachment": [
-            {
-              "time": 0,
-              "name": null
-            }
-          ]
-        },
         "slot_sq_03": {
           "attachment": [
             {
               "time": 0,
               "name": "sq_03_diagonal_wedge"
-            }
-          ]
-        },
-        "slot_sq_04": {
-          "attachment": [
-            {
-              "time": 0,
-              "name": null
-            }
-          ]
-        },
-        "slot_sq_05": {
-          "attachment": [
-            {
-              "time": 0,
-              "name": null
-            }
-          ]
-        },
-        "slot_sq_06": {
-          "attachment": [
-            {
-              "time": 0,
-              "name": null
-            }
-          ]
-        },
-        "slot_sq_07": {
-          "attachment": [
-            {
-              "time": 0,
-              "name": null
-            }
-          ]
-        },
-        "slot_sq_08": {
-          "attachment": [
-            {
-              "time": 0,
-              "name": null
             }
           ]
         }
